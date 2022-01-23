@@ -4,7 +4,7 @@
 
 ## User settings
 xcuserdata/
-TDDExampleCode.xcodeproj/project.pbxproj 
+*.xcodeproj 
 
 ## Obj-C/Swift specific
 *.hmap
