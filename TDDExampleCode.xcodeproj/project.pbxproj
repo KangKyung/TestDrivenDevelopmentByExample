@@ -15,6 +15,7 @@
 		C6EF545C279D73C60049093A /* TDDExampleCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF545B279D73C60049093A /* TDDExampleCodeUITests.swift */; };
 		C6EF545E279D73C60049093A /* TDDExampleCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF545D279D73C60049093A /* TDDExampleCodeUITestsLaunchTests.swift */; };
 		C6EF546D279D783C0049093A /* 다중 통화를 지원하는 Money 객체.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF546C279D783C0049093A /* 다중 통화를 지원하는 Money 객체.swift */; };
+		C6EF5472279D7EFE0049093A /* Doller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF5471279D7EFE0049093A /* Doller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C6EF545B279D73C60049093A /* TDDExampleCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDExampleCodeUITests.swift; sourceTree = "<group>"; };
 		C6EF545D279D73C60049093A /* TDDExampleCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDExampleCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C6EF546C279D783C0049093A /* 다중 통화를 지원하는 Money 객체.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "다중 통화를 지원하는 Money 객체.swift"; sourceTree = "<group>"; };
+		C6EF5471279D7EFE0049093A /* Doller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,7 @@
 		C6EF5434279D73C40049093A = {
 			isa = PBXGroup;
 			children = (
-				C6EF543F279D73C50049093A /* TDDExampleCode */,
+				C6EF543F279D73C50049093A /* Project */,
 				C6EF545A279D73C60049093A /* UITests */,
 				C6EF5450279D73C60049093A /* Tests */,
 				C6EF543E279D73C50049093A /* Products */,
@@ -93,15 +95,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6EF543F279D73C50049093A /* TDDExampleCode */ = {
+		C6EF543F279D73C50049093A /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				C6EF5440279D73C50049093A /* TDDExampleCodeApp.swift */,
-				C6EF5442279D73C50049093A /* ContentView.swift */,
-				C6EF5444279D73C60049093A /* Assets.xcassets */,
-				C6EF5446279D73C60049093A /* Preview Content */,
+				C6EF5470279D7E900049093A /* Model */,
+				C6EF546F279D7E810049093A /* View */,
 			);
-			path = TDDExampleCode;
+			path = Project;
 			sourceTree = "<group>";
 		};
 		C6EF5446279D73C60049093A /* Preview Content */ = {
@@ -128,6 +128,25 @@
 				C6EF545D279D73C60049093A /* TDDExampleCodeUITestsLaunchTests.swift */,
 			);
 			path = UITests;
+			sourceTree = "<group>";
+		};
+		C6EF546F279D7E810049093A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6EF5440279D73C50049093A /* TDDExampleCodeApp.swift */,
+				C6EF5442279D73C50049093A /* ContentView.swift */,
+				C6EF5444279D73C60049093A /* Assets.xcassets */,
+				C6EF5446279D73C60049093A /* Preview Content */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6EF5470279D7E900049093A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6EF5471279D7EFE0049093A /* Doller.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EF5472279D7EFE0049093A /* Doller.swift in Sources */,
 				C6EF5452279D73C60049093A /* TestSetting.swift in Sources */,
 				C6EF546D279D783C0049093A /* 다중 통화를 지원하는 Money 객체.swift in Sources */,
 			);
@@ -422,7 +442,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TDDExampleCode/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Project/View/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -451,7 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TDDExampleCode/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Project/View/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
