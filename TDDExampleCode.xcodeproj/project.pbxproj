@@ -14,6 +14,7 @@
 		C6EF5452279D73C60049093A /* TestSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF5451279D73C60049093A /* TestSetting.swift */; };
 		C6EF545C279D73C60049093A /* TDDExampleCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF545B279D73C60049093A /* TDDExampleCodeUITests.swift */; };
 		C6EF545E279D73C60049093A /* TDDExampleCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF545D279D73C60049093A /* TDDExampleCodeUITestsLaunchTests.swift */; };
+		C6EF546D279D783C0049093A /* 다중 통화를 지원하는 Money 객체.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF546C279D783C0049093A /* 다중 통화를 지원하는 Money 객체.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C6EF5457279D73C60049093A /* TDDExampleCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDExampleCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EF545B279D73C60049093A /* TDDExampleCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDExampleCodeUITests.swift; sourceTree = "<group>"; };
 		C6EF545D279D73C60049093A /* TDDExampleCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDExampleCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6EF546C279D783C0049093A /* 다중 통화를 지원하는 Money 객체.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "다중 통화를 지원하는 Money 객체.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				C6EF5451279D73C60049093A /* TestSetting.swift */,
+				C6EF546C279D783C0049093A /* 다중 통화를 지원하는 Money 객체.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6EF5452279D73C60049093A /* TestSetting.swift in Sources */,
+				C6EF546D279D783C0049093A /* 다중 통화를 지원하는 Money 객체.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
