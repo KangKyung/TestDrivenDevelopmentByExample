@@ -9,13 +9,16 @@ import Foundation
 
 class Doller {
     
-    var amount: Int
+    private var sumOfMoney: Int
     
     init(amount: Int) {
-        self.amount = amount
+        self.sumOfMoney = amount
     }
     
     func multiply(by multiplier: Int) {
-        self.amount *= multiplier
+        self.sumOfMoney *= multiplier
+    }
+    func amount() -> Int {
+        self.sumOfMoney
     }
 }

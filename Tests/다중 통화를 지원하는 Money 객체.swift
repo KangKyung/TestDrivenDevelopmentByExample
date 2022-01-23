@@ -18,6 +18,6 @@ extension TDDExampleCodeTests {
         fiveDoller.multiply(by: 2)
 
         // 곱셈이 잘 되는지 확인
-        XCTAssertEqual(5*2, fiveDoller.amount)
+        XCTAssertEqual(5*2, fiveDoller.amount())
     }
 }
